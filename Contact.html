@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Millan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <canvas id="web-bg" aria-hidden="true"></canvas>
+
+    <header class="header">
+        <a href="index.html" class="logo">Cost <span>Millan</span></a>
+
+        <button class="menu-btn" id="menu-icon" aria-label="Toggle menu">
+            <i class="bx bx-menu"></i>
+        </button>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Side-quests.html">Side Quests</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+
+        <a href="Contact.html" class="gradient-btn">Contact Me</a>
+    </header>
+
+    <main>
+        <section class="contact" id="contact">
+            <h1 class="section-title">Get In <span class="gradient-text">Touch</span></h1>
+            <p class="contact-intro">
+                Have a project, a question or just want to say hi? Send me a message and I'll get back to you.
+            </p>
+
+            <div class="contact-wrap">
+                <!-- Details -->
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="bx bx-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:clintonndege1@gmail.com">clintonndege1@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="bx bx-phone"></i>
+                        <div>
+                            <h4>Phone / WhatsApp</h4>
+                            <a href="tel:+254113825518">+254 113 825 518</a>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="bx bx-map"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <span>NAIROBI, KENYA</span>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+    <a href="https://github.com/Cost719" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="bx bxl-github"></i></a>
+    <a href="https://www.linkedin.com/in/Cost_millan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="bx bxl-linkedin-square"></i></a>
+    <a href="https://www.instagram.com/Cost_millan" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><i class="bx bxl-instagram-alt"></i></a>
+    <a href="https://x.com/Cost_millan" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" title="X (Twitter)"><i class="bx bxl-twitter"></i></a>
+</div>
+                </div>
+
+                <!-- Form -->
+                <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Tell me about your idea..." required></textarea>
+
+                    <button type="submit" class="btn">Send Message&nbsp;<i class="bx bx-send"></i></button>
+                </form>
+            </div>
+
+            <div class="page-end-btn">
+                <a href="index.html" class="btn"><i class="bx bx-arrow-back"></i>&nbsp;Back Home</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Cost Millan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
